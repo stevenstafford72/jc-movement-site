@@ -1,12 +1,12 @@
 export const siteDetails = {
-    siteName: 'Finwise',
-    siteUrl: 'https://finwise-omega.vercel.app/',
+    siteName: 'JC Movement Inc.',
+    siteUrl: 'https://www.jcmovement.org/',
     metadata: {
-        title: 'Finwise - Next.js and Tailwind CSS Landing Page Template',
-        description: 'Finwise empowers businesses with cutting-edge technology solutions to drive success and efficiency.',
+        title: 'JC',
+        description: 'JC Movement Inc. is a non-profit organization that provides before and after school programs for children in the community.',
     },
     language: 'en-us',
     locale: 'en-US',
-    siteLogo: `${process.env.BASE_PATH || ''}/images/logo.png`, // or use a string for the logo e.g. "TechStartup"
+    siteLogo: '/images/Logo.png', // or use a string for the logo e.g. "TechStartup"
     googleAnalyticsId: '', // e.g. G-XXXXXXX,
 }
