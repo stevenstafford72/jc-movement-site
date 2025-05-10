@@ -4,29 +4,29 @@ import { IBenefit } from "@/types"
 
 export const benefits: IBenefit[] = [
     {
-        title: "Smart Budgeting",
-        description: "Take the guesswork out of managing your money. Our AI-powered budgeting tool adapts to your lifestyle and helps you stay on track.",
+        title: "Overview",
+        description: "Empowering lives through Christ—meeting people where they are, guiding them to purpose, growth, and a higher way of living through faith, love, and education.",
         bullets: [
             {
-                title: "Intelligent Categorization",
-                description: "Automatically sorts your transactions for crystal-clear insights.",
+                title: "Mission",
+                description: "Coming together as one as the body of Christ to push His (Jesus Christ) mission of going to teach, help, save, and spread his love. We will achieve this mission by reaching individuals exactly where they are at in their journey of life.  ",
                 icon: <FiBarChart2 size={26} />
             },
             {
-                title: "Customizable Goals",
-                description: "Set and track financial objectives that matter to you.",
+                title: "Vision",
+                description: "The Vision is that every person uses their gift and talents in a positive way to spread and help the world by uplifting other individual’s spirits through inspiration/motivation, education, films, music, art which are gifts and talents that are discovered and can be used.  Jesus Christ is the driving force behind the mission and brand.",
                 icon: <FiTarget size={26} />
             },
             {
-                title: "Predictive Analysis",
-                description: "Get ahead of your finances with spending forecasts and alerts.",
+                title: "Who We Are",
+                description: "J.C. Movement, Inc. is a 501c3 Non-Profit organized for religious, charitable, educational & scientific purposes. We offer a variety of youth programs which are defined as movements to help meet our mission & vision of going beyond the walls to pour into people and relate to them in a real way while pushing them into purpose as we move through inspiration, education, films, music, and art.",
                 icon: <FiTrendingUp size={26} />
             }
         ],
-        imageSrc: "/images/mockup-1.webp"
+        imageSrc: "/images/jc-movemock.webp"
     },
     {
-        title: "Seamless Investing",
+        title: "Letter from Our CEO and Founder",
         description: "Start building wealth today, no financial degree required. Finwise makes investing accessible and straightforward.",
         bullets: [
             {
@@ -67,6 +67,6 @@ export const benefits: IBenefit[] = [
                 icon: <FiShield size={26} />
             }
         ],
-        imageSrc: "/images/mockup-1.webp"
+        imageSrc: "/images/JC_Movement_Ad.webp"
     },
 ]
