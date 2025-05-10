@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
-import { BiHomeHear } from 'react-icons/bi';
+import { BiHomeHeart } from "react-icons/bi";
 import { siteDetails } from '@/data/siteDetails';
 import { footerDetails } from '@/data/footer';
 import { getPlatformIconByName } from '@/utils';
@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
       <div className="max-w-7xl w-full mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-10">
         <div>
           <Link href="/" className="flex items-center gap-2">
-            <BiHomeHear />
+            <BiHomeHeart />
             <h3 className="manrope text-xl font-semibold cursor-pointer">
               {siteDetails.siteName}
             </h3>
@@ -68,7 +68,7 @@ const Footer: React.FC = () => {
       </div>
       <div className="mt-8 md:text-center text-foreground-accent px-6">
         <p>
-          &copy; {new Date().getFullYear()} {siteDetails.siteName}. All rights
+          &copy; {new Date().getFullYear()} {siteDetails.siteName} All rights
           reserved.
         </p>
         <p className="text-sm mt-2 text-gray-500">
