@@ -1,6 +1,7 @@
 export interface IMenuItem {
     text: string;
     url: string;
+    target?: string;
 }
 
 export interface IBenefit {
@@ -20,6 +21,8 @@ export interface IPricing {
     name: string;
     price: number | string;
     features: string[];
+    link: string;
+    target?: string;
 }
 
 export interface IFAQ {
@@ -50,4 +53,5 @@ export interface ISocials {
     youtube?: string;
     x?: string;
     [key: string]: string | undefined;
+    target?: string;
 }

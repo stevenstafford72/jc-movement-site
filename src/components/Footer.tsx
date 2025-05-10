@@ -22,15 +22,23 @@ const Footer: React.FC = () => {
         </div>
         <div>
           <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
-          <ul className="text-foreground-accent">
-            {footerDetails.quickLinks.map((link) => (
-              <li key={link.text} className="mb-2">
-                <Link href={link.url} className="hover:text-foreground">
-                  {link.text}
-                </Link>
-              </li>
-            ))}
-          </ul>
+         <ul className="text-foreground-accent">
+  {footerDetails.quickLinks.map((link) => (
+    <li key={link.text} className="mb-2">
+      <Link href={link.url} passHref>
+      
+        <Link
+          href={link.url}
+          target={link.target === "blank" ? "_blank" : undefined}
+          rel={link.target === "blank" ? "noopener noreferrer" : undefined}
+          className="hover:text-foreground"
+        >
+          {link.text}
+        </Link>
+      </Link>
+    </li>
+  ))}
+</ul>
         </div>
         <div>
           <h4 className="text-lg font-semibold mb-4">Contact Us</h4>
@@ -58,6 +66,7 @@ const Footer: React.FC = () => {
                   key={platform}
                   aria-label={platform}
                   className="hover:text-foreground"
+                  target="_blank"
                 >
                   {getPlatformIconByName(platform)}
                 </Link>

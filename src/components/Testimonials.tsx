@@ -23,11 +23,11 @@ const Testimonials: React.FC = () => {
                             <p className="text-lg text-foreground-accent gap-1">{testimonial.role}</p>
                         </div>
                     </div>
-                   <p className="text-sm text-foreground-accent text-black font-bold">
+                        <p className="text-sm text-foreground-accent text-black font-bold">
                         {testimonial.message.split('\n').map((line, index) => (
-                            <div key={index}>{line}</div>
+                            <span key={index} className="block">{line}</span>
                         ))}
-                        </p>
+                    </p>
                 </div>
             ))}
         </div>

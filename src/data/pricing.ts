@@ -11,6 +11,8 @@ export const tiers: IPricing[] = [
             'Before: 6:30 AM – 8:00 AM',
             'After: 3:30 PM – 6:00 PM',
         ],
+        link: 'https://docs.google.com/forms/d/e/1FAIpQLSedEMYC53kMkempHQPND-_1eojuek586HH7FePZyZkmjsDJ2w/viewform',
+        
     },
     {
         name: 'Summer Camp 2025',
@@ -22,7 +24,7 @@ export const tiers: IPricing[] = [
             'KIPP Kirkpatrick',
             '1000 Sevier Street, Nashville, TN.',
         ],
-
+        link: 'https://docs.google.com/forms/d/e/1FAIpQLSf0VRaNMPIWhpXV1gC0RYT5qeeyXBCsjxSvN4m-mouyi-skdg/viewform',
     },
     {
         name: 'Liberty Sign Up & Registration',
@@ -34,5 +36,6 @@ export const tiers: IPricing[] = [
             'Before: 6:30 AM – 8:00 AM',
             'After: 3:30 PM – 6:00 PM',
         ],
+        link: 'https://docs.google.com/forms/d/e/1FAIpQLSdKKNiqOGx43q6uiM6-9MM4skkBwWTONvpIwzW7EbCR4Eyjuw/closedform',
     },
 ]

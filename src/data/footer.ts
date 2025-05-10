@@ -12,8 +12,8 @@ export const footerDetails: {
     { text: "About", url: "/about" },
     { text: "Movements", url: "/#movements" },
     { text: "Events", url: "/#events" },
-    { text: "Volunteer", url: "/contact#volunteer" },
-    { text: "Donate", url: "https://my-business-102296.square.site/" }
+    { text: "Volunteer", url: "/contact#volunteer", target: "blank" },
+    { text: "Donate", url: "https://www.jcmovementpayments.org/product/donation/2?cs=true" , target: "blank" },
   ],
   email: "jcm@jcmovement.org",
   telephone: "+1 (615) 933-8762",

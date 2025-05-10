@@ -1,6 +1,8 @@
 import clsx from "clsx";
 import { BsFillCheckCircleFill } from "react-icons/bs";
 import { IPricing } from "@/types";
+import React from "react";
+import Link from "next/link";
 
 interface Props {
     tier: IPricing;
@@ -29,8 +31,14 @@ const PricingColumn: React.FC<Props> = ({ tier, highlight }: Props) => {
                         ? "bg-yellow-600 hover:bg-yellow-700"
                         : "bg-blue-900 hover:bg-blue-800"
                 )}>
-                    Register Now
+                    <Link href={tier.link} target="blank" className="flex items-center justify-center">
+                        Register Now
+                    </Link>
                 </button>
+                
+                
+
+
             </div>
             <div className="p-6 mt-1">
                 <p className="font-bold mb-0 text-gray-700">FEATURES</p>

@@ -1,6 +1,19 @@
-import { FiBarChart2, FiBriefcase, FiDollarSign, FiLock, FiPieChart, FiShield, FiTarget, FiTrendingUp, FiUser } from "react-icons/fi";
+import {
+    FiBarChart2,
+    FiBriefcase,
+    FiDollarSign,
+    FiLock,
+    FiPieChart,
+    FiShield,
+    FiTarget,
+    FiTrendingUp,
+    FiUser,
+    FiUsers,
+    FiGift,
+} from "react-icons/fi";
+import { FaHandsHelping } from "react-icons/fa";
 
-import { IBenefit } from "@/types"
+import { IBenefit } from "@/types";
 
 export const benefits: IBenefit[] = [
     {
@@ -26,26 +39,26 @@ export const benefits: IBenefit[] = [
         imageSrc: "/images/jc-movemock.webp"
     },
     {
-        title: "Letter from Our CEO and Founder",
-        description: "Start building wealth today, no financial degree required. Finwise makes investing accessible and straightforward.",
+        title: "It's Bigger Than Us",
+        description: "At JC Movement, we believe in showing love through action. From mentoring students to supporting families during the holidays, our mission is rooted in service, faith, and community. Every child matters. Every act of kindness counts.",
         bullets: [
             {
-                title: "Micro-Investing",
-                description: "Begin with as little as $1 and watch your money grow.",
-                icon: <FiDollarSign size={26} />
+                title: "Youth Empowerment",
+                description: "Supporting 90+ students through after-school programs at KIPP Kirkpatrick and Liberty Collegiate Academy.",
+                icon: <FiUsers size={26} />
             },
             {
-                title: "Expert Portfolios",
-                description: "Choose from investment strategies tailored to your risk tolerance.",
-                icon: <FiBriefcase size={26} />
+                title: "Holiday Giving",
+                description: "Providing gifts and gift cards to families in need to spread joy and hope during the Christmas season.",
+                icon: <FiGift size={26} />
             },
             {
-                title: "Real-Time Performance",
-                description: "Track your investments with easy-to-understand metrics and visuals.",
-                icon: <FiPieChart size={26} />
+                title: "Partner With Purpose",
+                description: "Help us make a difference. Donate online, sponsor a child, or deliver holiday items to our organization directly.",
+                icon: <FaHandsHelping size={26} />
             }
-        ],
-        imageSrc: "/images/mockup-2.webp"
+        ], 
+        imageSrc: "/images/jc-mock2.webp"
     },
     {
         title: "Summer Camp 2025",
@@ -69,4 +82,4 @@ export const benefits: IBenefit[] = [
         ],
         imageSrc: "/images/jc-camp.webp"
     },
-]
+];
