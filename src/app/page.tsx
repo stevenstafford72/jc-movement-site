@@ -19,16 +19,16 @@ const HomePage: React.FC = () => {
 
         <Section
           id="pricing"
-          title="Pricing"
-          description="Simple, transparent pricing. No surprises."
+          title="Before & After School Movements"
+          description="Team: Mr. Jenkins - Tabitha Furr (Admin) Carrie Williams (Liberty)"
         >
           <Pricing />
         </Section>
 
         <Section
           id="testimonials"
-          title="What Our Clients Say"
-          description="Hear from those who have partnered with us."
+          title="Meet the Team"
+          description="Connect: Email or DM us on any of our Social Media Sites."
         >
           <Testimonials />
         </Section>

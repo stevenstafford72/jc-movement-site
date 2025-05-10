@@ -9,12 +9,12 @@ export const benefits: IBenefit[] = [
         bullets: [
             {
                 title: "Mission",
-                description: "Coming together as one as the body of Christ to push His (Jesus Christ) mission of going to teach, help, save, and spread his love. We will achieve this mission by reaching individuals exactly where they are at in their journey of life.  ",
+                description: "Coming together as one as the body of Christ to push His (Jesus Christ) mission of going to teach, help, save, and spread his love. We will achieve this mission by reaching individuals exactly where they are at in their journey of life.",
                 icon: <FiBarChart2 size={26} />
             },
             {
                 title: "Vision",
-                description: "The Vision is that every person uses their gift and talents in a positive way to spread and help the world by uplifting other individual’s spirits through inspiration/motivation, education, films, music, art which are gifts and talents that are discovered and can be used.  Jesus Christ is the driving force behind the mission and brand.",
+                description: "The Vision is that every person uses their gift and talents in a positive way to spread and help the world by uplifting other individual’s spirits through inspiration/motivation, education, films, music, art which are gifts and talents that are discovered and can be used. Jesus Christ is the driving force behind the mission and brand.",
                 icon: <FiTarget size={26} />
             },
             {
@@ -48,25 +48,25 @@ export const benefits: IBenefit[] = [
         imageSrc: "/images/mockup-2.webp"
     },
     {
-        title: "Bank-Grade Security",
-        description: "Your financial data deserves the best protection. Rest easy knowing Finwise employs cutting-edge security measures.",
+        title: "Summer Camp 2025",
+        description: "Join J.C. Movement, Inc. this summer at KIPP Kirkpatrick in Nashville for a fun, affordable, and enriching camp experience your child will never forget!",
         bullets: [
             {
-                title: "Military-Grade Encryption",
-                description: "Your information is safeguarded with the highest level of encryption.",
+                title: "What to Expect",
+                description: "Fun daily activities, academic enrichment (especially reading), arts & crafts, outdoor play, themed events, and a nurturing environment.",
                 icon: <FiLock size={26} />
             },
             {
-                title: "Biometric Authentication",
-                description: "Access your account securely with fingerprint or facial recognition.",
+                title: "Camp Details",
+                description: "June 2 – June 30, Monday–Friday, 6:30 AM – 5:45 PM at KIPP Kirkpatrick, 1000 Sevier Street, Nashville, TN.",
                 icon: <FiUser size={26} />
             },
             {
-                title: "Real-Time Fraud Detection",
-                description: "Our system constantly monitors for suspicious activity to keep your money safe.",
+                title: "Affordable Tuition",
+                description: "$100/week with meals included (breakfast, snack, lunch). One-time registration fee: $50. Visit jcmovement.org to register—spots are limited!",
                 icon: <FiShield size={26} />
             }
         ],
-        imageSrc: "/images/JC_Movement_Ad.webp"
+        imageSrc: "/images/jc-camp.webp"
     },
 ]

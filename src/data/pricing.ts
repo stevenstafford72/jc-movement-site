@@ -2,36 +2,37 @@ import { IPricing } from "@/types";
 
 export const tiers: IPricing[] = [
     {
-        name: 'Starter',
+        name: 'KIPP Kirk Sign Up & Registration',
         price: 29,
         features: [
-            'Basic cloud integration',
-            'Up to 5 team members',
-            '20GB storage',
-            'Email support',
+            '2024-2025 Enrollment Policies & Registration',
+            'Enrollment & Registration Forms',
+            '1000 Sevier Street, Nashville, TN.',
+            'Before: 6:30 AM – 8:00 AM',
+            'After: 3:30 PM – 6:00 PM',
         ],
     },
     {
-        name: 'Pro',
-        price: 99,
+        name: 'Summer Camp 2025',
+        price: 100,
         features: [
-            'Advanced cloud integration',
-            'Up to 20 team members',
-            '100GB storage',
-            'Priority email & phone support',
-            'Advanced analytics',
+            'Registration fee: $50',
+            ' June 2 – June 30, Monday–Friday',
+            '6:30 AM – 5:45 PM ',
+            'KIPP Kirkpatrick',
+            '1000 Sevier Street, Nashville, TN.',
         ],
+
     },
     {
-        name: 'Enterprise',
-        price: 'Custom',
+        name: 'Liberty Sign Up & Registration',
+        price: '$29',
         features: [
-            'Full cloud integration',
-            'Unlimited team members',
-            'Unlimited storage',
-            '24/7 dedicated support',
-            'Custom solutions',
-            'On-site training',
+            '2024-2025 Enrollment Policies & Registration',
+            'Enrollment & Registration Forms',
+            '3515 Gallatin Pike, Nashville, TN 37216',
+            'Before: 6:30 AM – 8:00 AM',
+            'After: 3:30 PM – 6:00 PM',
         ],
     },
 ]

@@ -1,37 +1,26 @@
 import { IMenuItem, ISocials } from "@/types";
 
 export const footerDetails: {
-    subheading: string;
-    quickLinks: IMenuItem[];
-    email: string;
-    telephone: string;
-    socials: ISocials;
+  subheading: string;
+  quickLinks: IMenuItem[];
+  email: string;
+  telephone: string;
+  socials: ISocials;
 } = {
-    subheading: "Empowering businesses with cutting-edge financial technology solutions.",
-    quickLinks: [
-        {
-            text: "Features",
-            url: "#features"
-        },
-        {
-            text: "Pricing",
-            url: "#pricing"
-        },
-        {
-            text: "Testimonials",
-            url: "#testimonials"
-        }
-    ],
-    email: 'address@yoursite.com',
-    telephone: '+1 (123) 456-7890',
-    socials: {
-        // github: 'https://github.com',
-        // x: 'https://twitter.com/x',
-        twitter: 'https://twitter.com/Twitter',
-        facebook: 'https://facebook.com',
-        // youtube: 'https://youtube.com',
-        linkedin: 'https://www.linkedin.com',
-        // threads: 'https://www.threads.net',
-        instagram: 'https://www.instagram.com',
-    }
-}
+  subheading: "J.C. Movement, INC. is a 501c3 non-profit organized for religious, charitable, education &  for scientific purpose in Nashville, Tn.",
+  quickLinks: [
+    { text: "About", url: "/about" },
+    { text: "Movements", url: "/#movements" },
+    { text: "Events", url: "/#events" },
+    { text: "Volunteer", url: "/contact#volunteer" },
+    { text: "Donate", url: "https://my-business-102296.square.site/" }
+  ],
+  email: "jcm@jcmovement.org",
+  telephone: "+1 (615) 933-8762",
+  socials: {
+    facebook: "https://www.facebook.com/jcmovement77",
+    instagram: "https://www.instagram.com/j.c_movement/",
+    twitter: "https://twitter.com/jc_movement77",
+    youtube: "https://www.youtube.com/channel/UCEhAXwgsVLTBvci0jmX0VyA"
+  }
+};

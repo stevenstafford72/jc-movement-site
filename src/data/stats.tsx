@@ -1,22 +1,23 @@
-import { BsBarChartFill, BsFillStarFill } from "react-icons/bs";
 import { PiGlobeFill } from "react-icons/pi";
+import { FaMapMarkedAlt } from "react-icons/fa";
+import { IoFastFood } from "react-icons/io5";
 
 import { IStats } from "@/types";
 
 export const stats: IStats[] = [
-    {
-        title: "20M+",
-        icon: <BsBarChartFill size={34} className="text-blue-500" />,
-        description: "Transactions processed securely every day, providing real-time insights."
-    },
-    {
-        title: "5.0",
-        icon: <BsFillStarFill size={34} className="text-yellow-500" />,
-        description: "Star rating, consistently maintained across app stores."
-    },
-    {
-        title: "200+ ",
-        icon: <PiGlobeFill size={34} className="text-green-600" />,
-        description: "Financial Institutions, seamlessly integrated, so you can manage all accounts."
-    }
+  {
+    title: "10k+",
+    icon: <IoFastFood size={34} className="text-blue-500" />,
+    description: "Meals provided to youth in our programs — and growing!"
+  },
+  {
+    title: "2",
+    icon: <FaMapMarkedAlt size={34} className="text-yellow-500" />,
+    description: "Locations in Nashville, TN KIPP Kirkpatrick and Liberty Elementary. More to come!"
+  },
+  {
+    title: "200+",
+    icon: <PiGlobeFill size={34} className="text-green-600" />,
+    description: "Youth and volunteers impacted through our programs, outreach, and events."
+  }
 ];
