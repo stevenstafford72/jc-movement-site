@@ -2,12 +2,14 @@ import { ctaDetails } from "@/data/cta";
 import { FaFacebook, FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
 import { RiShirtFill } from "react-icons/ri";
 
+ 
+ type SocialIconKey = "Facebook" | "Instagram" | "Twitter" | "YouTube" | "Merch";
 const socialIcons = {
   Facebook: <FaFacebook size={24} className="hover:text-blue-400" />,
   Instagram: <FaInstagram size={24} className="hover:text-pink-400" />,
   Twitter: <FaTwitter size={24} className="hover:text-blue-300" />,
   YouTube: <FaYoutube size={24} className="hover:text-red-500" />,
-  "Merch Store": <RiShirtFill size={24} className="hover:text-yellow-400" />,
+  "Merch": <RiShirtFill size={24} className="hover:text-yellow-400" />,
 };
 
 const CTA: React.FC = () => {
@@ -51,7 +53,7 @@ const CTA: React.FC = () => {
                     aria-label={link.name}
                     className="transition transform hover:scale-110"
                   >
-                    {socialIcons[link.name]}
+                    {socialIcons[link.name as SocialIconKey]?? <FaInstagram />}
                   </a>
                 ))}
               </div>

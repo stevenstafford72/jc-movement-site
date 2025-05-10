@@ -1,3 +1,4 @@
+
 export const ctaDetails = {
   heading: "Connect with Us",
   subheading: "Join the Movement",
@@ -9,6 +10,5 @@ export const ctaDetails = {
     { name: "Instagram", url: "https://www.instagram.com/j.c_movement/" },
     { name: "Twitter", url: "https://twitter.com/jc_movement77" },
     { name: "YouTube", url: "https://www.youtube.com/channel/UCEhAXwgsVLTBvci0jmX0VyA" },
-    { name: "Merch", url: "https://www.instagram.com/jcmmerch/" }
   ]
 };

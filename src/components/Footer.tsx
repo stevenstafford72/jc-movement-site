@@ -61,7 +61,7 @@ const Footer: React.FC = () => {
           {footerDetails.socials && (
             <div className="mt-5 flex items-center gap-5 flex-wrap">
               {Object.entries(footerDetails.socials).map(([platform, url]) => (
-                <Link
+                <a
                   href={url}
                   key={platform}
                   aria-label={platform}
@@ -69,7 +69,7 @@ const Footer: React.FC = () => {
                   target="_blank"
                 >
                   {getPlatformIconByName(platform)}
-                </Link>
+                </a>
               ))}
             </div>
           )}
