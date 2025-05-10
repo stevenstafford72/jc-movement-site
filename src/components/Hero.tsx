@@ -1,13 +1,8 @@
 import React from 'react';
-import Image from 'next/image';
-import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import SchoolSlideshow from './SchoolSlideshow';
 import Link from 'next/link';
-
-
 import { heroDetails } from '@/data/hero';
-import { Button } from '@headlessui/react';
 
 const Hero: React.FC = () => {
     return (

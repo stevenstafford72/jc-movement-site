@@ -1,9 +1,6 @@
 import {
     FiBarChart2,
-    FiBriefcase,
-    FiDollarSign,
     FiLock,
-    FiPieChart,
     FiShield,
     FiTarget,
     FiTrendingUp,
