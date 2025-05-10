@@ -28,7 +28,7 @@ export const tiers: IPricing[] = [
     },
     {
         name: 'Liberty Sign Up & Registration',
-        price: '$50 Weekly',
+        price: 'Free',
         features: [
             '2024-2025 Enrollment Policies & Registration',
             'Enrollment & Registration Forms',
