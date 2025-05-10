@@ -22,7 +22,7 @@ const Header: React.FC = () => {
             <Container className="!px-0">
                 <nav className="shadow-md md:shadow-none bg-white md:bg-transparent mx-auto flex justify-between items-center py-2 px-5 md:py-0">
                     {/* Logo */}
-                    <Link href="/" className="flex items-center gap-x-4 w-full justify-center md:justify-start md:justify-center md:w-auto">
+                    <Link href="/" className="flex items-center gap-x-4 w-full justify-center md:justify-start md:w-auto">
                         <Image
                             src="/images/logo.png"
                             alt="Logo"
