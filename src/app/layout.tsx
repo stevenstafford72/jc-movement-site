@@ -4,6 +4,9 @@ import { Source_Sans_3, Manrope } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { siteDetails } from '@/data/siteDetails';
+// src/app/layout.tsx
+import { Analytics } from "@vercel/analytics/react"; // use `react`, not `next`
+
 
 import "./globals.css";
 
@@ -41,6 +44,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
+    
     <html lang="en">
       <body
         className={`${manrope.className} ${sourceSans.className} antialiased`}
@@ -50,7 +54,9 @@ export default function RootLayout({
           {children}
         </main>
         <Footer />
+        <Analytics /> {/* Add this just before closing body */}
       </body>
     </html>
   );
 }
+

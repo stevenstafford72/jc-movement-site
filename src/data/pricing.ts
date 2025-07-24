@@ -2,21 +2,22 @@ import { IPricing } from "@/types";
 
 export const tiers: IPricing[] = [
     {
-        name: 'KIPP Kirk Sign Up & Registration',
-        price: '$50 Weekly',
+        name: 'KIPP Kirkpatrick Elem / KAN Middle Sign Ups and Registration.',
+        price: '$50 Registeration  $25 Weekly',
         features: [
-            '2024-2025 Enrollment Policies & Registration',
+            '2025-2026 Enrollment Policies & Registration',
+            '$50 Registeration',
             'Enrollment & Registration Forms',
             '1000 Sevier Street, Nashville, TN.',
             'Before: 6:30 AM – 8:00 AM',
-            'After: 3:30 PM – 6:00 PM',
+            'After: 3:30 PM – 5:45 PM',
         ],
-        link: 'https://docs.google.com/forms/d/e/1FAIpQLSedEMYC53kMkempHQPND-_1eojuek586HH7FePZyZkmjsDJ2w/viewform',
+        link: 'https://docs.google.com/forms/d/e/1FAIpQLScmfhHV5wePXqgWqNZ7JCxv2HGFLfv09h5sJ7QiKiISYMo9LQ/viewform',
         
     },
     {
         name: 'Summer Camp 2025',
-        price: 100,
+        price: 'Registration Closed',
         features: [
             'Registration fee: $50',
             ' June 2 – June 30, Monday–Friday',
@@ -30,12 +31,12 @@ export const tiers: IPricing[] = [
         name: 'Liberty Sign Up & Registration',
         price: 'Free',
         features: [
-            '2024-2025 Enrollment Policies & Registration',
+            '2025-2026 Enrollment Policies & Registration',
             'Enrollment & Registration Forms',
             '3515 Gallatin Pike, Nashville, TN 37216',
             'Before: 6:30 AM – 8:00 AM',
             'After: 3:30 PM – 6:00 PM',
         ],
-        link: 'https://docs.google.com/forms/d/e/1FAIpQLSdKKNiqOGx43q6uiM6-9MM4skkBwWTONvpIwzW7EbCR4Eyjuw/closedform',
+        link: 'https://docs.google.com/forms/d/e/1FAIpQLScchHkMrcQNsOGhi6x7I3iNONZGIJJR28wKCaX1o50ZVdSEOg/viewform?usp=sharing&ouid=109097685519496410862',
     },
 ]
