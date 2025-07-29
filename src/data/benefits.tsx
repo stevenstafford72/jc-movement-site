@@ -1,10 +1,7 @@
 import {
     FiBarChart2,
-    FiLock,
-    FiShield,
     FiTarget,
     FiTrendingUp,
-    FiUser,
     FiUsers,
     FiGift,
 } from "react-icons/fi";
