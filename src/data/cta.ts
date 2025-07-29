@@ -12,3 +12,17 @@ export const ctaDetails = {
     { name: "YouTube", url: "https://www.youtube.com/channel/UCEhAXwgsVLTBvci0jmX0VyA" },
   ]
 };
+
+export const ctaDetail = {
+  heading: "Connect with Us",
+  subheading: "Join the Movement or Lend a Hand by Volunteering",
+  description: "Stay updated with our latest news and events. Follow us on social media.",
+  buttonText: "Join Our Team",
+  buttonLink: "https://forms.gle/gHfQXqVSES5xQfLr7",
+  socialLinks: [
+    { name: "Facebook", url: "https://www.facebook.com/jcmovement77" },
+    { name: "Instagram", url: "https://www.instagram.com/j.c_movement/" },
+    { name: "Twitter", url: "https://twitter.com/jc_movement77" },
+    { name: "YouTube", url: "https://www.youtube.com/channel/UCEhAXwgsVLTBvci0jmX0VyA" },
+  ]
+};

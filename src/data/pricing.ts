@@ -16,16 +16,12 @@ export const tiers: IPricing[] = [
         
     },
     {
-        name: 'Summer Camp 2025',
+        name: 'Summer Camp 2026',
         price: 'Registration Closed',
         features: [
-            'Registration fee: $50',
-            ' June 2 – June 30, Monday–Friday',
-            '6:30 AM – 5:45 PM ',
-            'KIPP Kirkpatrick',
-            '1000 Sevier Street, Nashville, TN.',
+            'Registration in May 2026',
         ],
-        link: 'https://docs.google.com/forms/d/e/1FAIpQLSf0VRaNMPIWhpXV1gC0RYT5qeeyXBCsjxSvN4m-mouyi-skdg/viewform',
+        link: '',
     },
     {
         name: 'Liberty Sign Up & Registration',

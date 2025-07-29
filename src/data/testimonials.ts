@@ -4,7 +4,7 @@ export const testimonials: ITestimonial[] = [
     {
         name: 'Mailing Address',
         role: '616 Aideen Pl. Madison, TN 37115',
-        message: 'Emails:\n• jcm@jcmovement.org\n• info@jcmovementinc.org\n• jcm.board@jcmovementinc.org\n Call/Text:\n• 615-933-8762',
+        message: 'Emails:\n• info@jcmovement.org\n• info@jcmovementinc.org\n• jcm.board@jcmovementinc.org\n Call/Text:\n• 615-933-8762',
         avatar: '/images/logo.png',
     },
     {
@@ -16,7 +16,7 @@ export const testimonials: ITestimonial[] = [
     {
         name: 'Leadership Team',
         role: 'CEO & Founder: Joseph C. Jenkins',
-        message: `Admin Leader: \n• Tabitha Furr \n\nOperations Leader:\n• Akeyia Claybrooks \n Financial Leader:\n • Kristen Booker \nFrontend Developer:\n• Steven Stafford`,
+        message: `Admin Leader: \n• Leslee Williams \n\nOperations Leader:\n• Akeyia Claybrooks \n Financial Leader:\n • Kristen Booker \nFrontend Developer:\n• Steven Stafford`,
         avatar: '/images/ceo.jpeg',
      
     },

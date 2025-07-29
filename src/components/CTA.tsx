@@ -1,4 +1,4 @@
-import { ctaDetails } from "@/data/cta";
+import { ctaDetails, ctaDetail} from "@/data/cta";
 import { FaFacebook, FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
 import { RiShirtFill } from "react-icons/ri";
 
@@ -38,6 +38,19 @@ const CTA: React.FC = () => {
                   className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-6 rounded-full transition"
                 >
                   {ctaDetails.buttonText}
+                </a>
+              </div>
+            )}
+
+            {ctaDetail.buttonText && ctaDetail.buttonLink && (
+              <div className="mt-6">
+                <a
+                  href={ctaDetail.buttonLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-6 rounded-full transition"
+                >
+                  {ctaDetail.buttonText}
                 </a>
               </div>
             )}

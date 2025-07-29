@@ -57,26 +57,5 @@ export const benefits: IBenefit[] = [
         ], 
         imageSrc: "/images/jc-mock2.webp"
     },
-    {
-        title: "Summer Camp 2025",
-        description: "Join J.C. Movement, Inc. this summer at KIPP Kirkpatrick in Nashville for a fun, affordable, and enriching camp experience your child will never forget!",
-        bullets: [
-            {
-                title: "What to Expect",
-                description: "Fun daily activities, academic enrichment (especially reading), arts & crafts, outdoor play, themed events, and a nurturing environment.",
-                icon: <FiLock size={26} />
-            },
-            {
-                title: "Camp Details",
-                description: "June 2 – June 30, Monday–Friday, 6:30 AM – 5:45 PM at KIPP Kirkpatrick, 1000 Sevier Street, Nashville, TN.",
-                icon: <FiUser size={26} />
-            },
-            {
-                title: "Affordable Tuition",
-                description: "$100/week with meals included (breakfast, snack, lunch). One-time registration fee: $50. Visit jcmovement.org to register—spots are limited!",
-                icon: <FiShield size={26} />
-            }
-        ],
-        imageSrc: "/images/jc-camp.webp"
-    },
+   
 ];

@@ -47,7 +47,7 @@ const Footer: React.FC = () => {
               href={`mailto:${footerDetails.email}`}
               className="block text-foreground-accent hover:text-foreground"
             >
-              Email: {footerDetails.email}
+              {footerDetails.email}
             </a>
           )}
           {footerDetails.telephone && (
@@ -55,7 +55,7 @@ const Footer: React.FC = () => {
               href={`tel:${footerDetails.telephone}`}
               className="block text-foreground-accent hover:text-foreground"
             >
-              Phone: {footerDetails.telephone}
+            {footerDetails.telephone}
             </a>
           )}
           {footerDetails.socials && (
