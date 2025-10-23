@@ -12,16 +12,16 @@ import { IBenefit } from "@/types";
 export const benefits: IBenefit[] = [
     {
         title: "Overview",
-        description: "Empowering lives through Christ—meeting people where they are, guiding them to purpose, growth, and a higher way of living through faith, love, and education.",
+        description: "Empowering lives through love—meeting people where they are, guiding them to purpose, growth, and a higher way of living through faith, love, and education.",
         bullets: [
             {
                 title: "Mission",
-                description: "Coming together as one as the body of Christ to push His (Jesus Christ) mission of going to teach, help, save, and spread his love. We will achieve this mission by reaching individuals exactly where they are at in their journey of life.",
+                description: "Going to teach, help, save, and spread love. We will achieve this mission by reaching individuals exactly where they are in their life's journey.",
                 icon: <FiBarChart2 size={26} />
             },
             {
                 title: "Vision",
-                description: "The Vision is that every person uses their gift and talents in a positive way to spread and help the world by uplifting other individual’s spirits through inspiration/motivation, education, films, music, art which are gifts and talents that are discovered and can be used. Jesus Christ is the driving force behind the mission and brand.",
+                description: "The Vision is that every person uses their gifts and talents positively to spread and help the world by uplifting others' spirits through inspiration/motivation, education, films, music, and art —gifts and skills that can be discovered and utilized. Love is the driving force behind the mission and brand.",
                 icon: <FiTarget size={26} />
             },
             {
