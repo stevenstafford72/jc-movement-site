@@ -17,12 +17,27 @@ export interface IBenefitBullet {
     icon: JSX.Element;
 }
 
+export interface IPricingSection {
+  title: string;
+  items: string[];
+}
+
+export interface IPricingLocation {
+  label: string;
+  href: string;
+}
+
 export interface IPricing {
-    name: string;
-    price: number | string;
-    features: string[];
-    link: string;
-    target?: string;
+  name: string;
+  price: number | string;
+  features: string[];
+  link: string;
+  target?: string;
+
+  // optional structured fields
+  ctaLabel?: string;
+  location?: IPricingLocation;
+  sections?: IPricingSection[];
 }
 
 export interface IFAQ {

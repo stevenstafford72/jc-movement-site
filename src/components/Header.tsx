@@ -23,13 +23,13 @@ const Header: React.FC = () => {
                 <nav className="shadow-md md:shadow-none bg-white md:bg-transparent mx-auto flex justify-between items-center py-2 px-5 md:py-0">
                     {/* Logo */}
                     <Link href="/" className="flex items-center gap-x-4 w-full justify-center md:justify-start md:w-auto">
-                        <Image
-                            src="/images/logo.png"
+                       <Image
+                        src="/images/logo.png"
                             alt="Logo"
                             width={100}
                             height={100}
-                            className="text-foreground min-w-fit md:w-32 md:h-32"
-                        />
+                            className="text-foreground w-20 h-20 md:w-32 md:h-32 object-contain"
+                            />
                         <span className="manrope text-3xl font-semibold text-foreground cursor-pointer hidden md:block">
                             {siteDetails.siteName}
                         </span>
